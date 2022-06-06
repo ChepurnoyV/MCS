@@ -1,0 +1,111 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: #60afc2;
+    color: #ffffff;
+}
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: x-large;
+    padding: 20px;
+}
+
+
+.photo-text-container {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.photo{
+    display: flex;
+    width: 1440px;
+    height: 480px;
+    background-image: url("images/Tsunami.jpeg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.text{
+    display:flex;
+    width: auto;
+    height: 60px;
+    background: #e1f1be;
+    font-family: "Helvetica", "Arial", sans-serif;
+    padding: 20px;
+    font-size: large;
+    color: #b4a5a5;
+
+}
+
+.landing-container{
+    display: flex;
+    width: auto;
+    height: 200px;
+    background: #ffffff;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.about{
+    display: flex;
+    width: 1000px;
+    height: 40px;
+    text-align: left;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.landing{
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    font-size: large;
+    font-family: "Helvetica", "Arial", sans-serif;
+    text-align: justify;
+    /*background-color: black;*/
+
+}
+
+.footer-container {
+    display: flex;
+    width: auto;
+    height: 100px;
+    background: #795fda;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    display: flex;
+    height: 70px;
+    padding: 20px;
+}
+
+.course{
+    display:flex;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: x-large;
+    padding: 20px;
+    color: #ffffff;
+}
