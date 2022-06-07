@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    display: flex;
+    width: 1440px;
+    height: 140px;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    /*background-color: #ffffff;*/
+    /*z-index: 1;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+}
+
+.header{
+    display:flex;
+    position: fixed;
+    width: 1440px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.brand-name{
+    display: flex;
+    padding: 50px;
+    font-family: Arial;
+    color: #E50043;
+    font-size: 50px;
+    bottom: 0;
+    right: 0;
+}
+
+.links{
+    display: flex;
+    padding: 25px;
+    font-family: Arial;
+    color: #E50043;
+    font-size: 50px;
+
+}
+
+.link{
+    display: inline;
+    padding: 25px;
+
+
+}
+
+.Hero-block-container{
+    display: flex;
+    width: 1440px;
+    height: 950px;
+    background-image: url("images/evian_origins_logo.png");
+    background-size: 100%;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.Hero-block{
+    display: flex;
+    font-family: Arial;
+    color: #E50043;
+    font-size: 100px;
+}
+
+.info-container{
+    display: flex;
+    width: 1440px;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.description-container{
+    display: flex;
+    width: 1040px;
+    height: 280px;
+    border: 1px solid #F8BFC7;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.description{
+    display: flex;
+    padding: 24px;
+    text-align: left;
+    font-family: Arial;
+    color: #000000;
+    font-size: 25px;
+}
+
+
+.photo-grid{
+    display: flex;
+    width: 1040px;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px;
+    margin-bottom: 150px;
+}
+
+.photo{
+    display: flex;
+    width: auto;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.product-name{
+    display: flex;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: Arial;
+    color: #000000;
+    font-size: 25px;
+    /*padding: 50px;*/
+
+}
+
+.footer-container {
+    display: flex;
+    width: 1440px;
+    height: 140px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F8BFC7;
+}
+
+.copyright{
+    display: flex;
+    padding: 50px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 50px;
+
+}
+
+ .composition {
+     display: flex;
+     width: auto;
+     height: auto;
+     text-align: left;
+     font-family: Arial;
+     color: #000000;
+     font-size: 25px;
+     padding: 30px;
+ }
+
+.description-container > .photo{
+    display: flex;
+    padding: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
