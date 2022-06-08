@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    display: flex;
+    width: 100%;
+    background-color: #0000FF;
+    height: 100px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: Helvetica;
+}
+
+.blocks-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.block{
+    display: flex;
+    width: 330px;
+    height: 165px;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+    font-family: Helvetica;
+    align-items: center;
+    text-align: center;
+    border: 5px solid #000000;
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0000FF;
+}
+
+.copyright{
+    display: flex;
+    font-family: Helvetica;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 30px;
+
+}
+
+
+/* Для всег очто больше Iphone 12pro*/
+@media only screen and (min-width: 391px){
+
+    .header-container{
+        width: 1440px;
+    }
+
+    .blocks-container{
+        width: 1440px;
+        padding: 100px;
+
+    }
+
+    .block{
+        width: 600px;
+        height: 300px;
+        font-size: 50px;
+        margin: 10px;
+    }
+    .footer-container {
+        width: 1440px;
+    }
+
+}
