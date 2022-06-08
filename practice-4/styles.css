@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+h4{
+    font-weight: normal;
+    margin-top: 33px;
+}
+
+ul{
+    list-style-type: none;
+}
 .header-container{
     display: flex;
     width: auto;
@@ -26,7 +34,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: #E5E5E5;
-    padding: 52px;
+    padding: 33px;
 
 }
 
@@ -36,44 +44,9 @@
     border: 5px solid #E5E000;
     border-radius: 30px;
     flex-direction: column;
+    padding: 33px;
 }
 
-.reciept-name{
-    display: flex;
-    font-family: Helvetica;
-    margin: 33px;
-    margin-bottom: 8px;
-}
-
-.reciept1{
-    display: flex;
-    width: 334px;
-    height: 670px;
-    font-size:20px;
-    margin-top: 8px;
-    margin: 33px;
-    font-family: "Times New Roman";
-}
-
-.reciept2{
-    display: flex;
-    width: 334px;
-    height: 670px;
-    font-size:20px;
-    margin: 33px;
-    font-family: "Times New Roman";
-
-}
-
-.reciept3{
-    display: flex;
-    width: 334px;
-    height: 670px;
-    font-size:20px;
-    margin: 33px;
-    font-family: "Times New Roman";
-
-}
 
 .footer-container{
     display: flex;
